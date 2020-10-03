@@ -1,7 +1,7 @@
 {
     "name": "blue32a/php-coding-standard",
     "description": "The PHP coding standard of the my projects.",
-    "type": "library",
+    "type": "phpcodesniffer-standard",
     "license": "MIT",
     "authors": [
         {
