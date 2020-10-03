@@ -1,6 +1,6 @@
 {
-    "name": "php-coding-standardblue32a/php-coding-standard",
-    "description": "The PHP coding standard of the my project.",
+    "name": "blue32a/php-coding-standard",
+    "description": "The PHP coding standard of the my projects.",
     "type": "library",
     "license": "MIT",
     "authors": [
