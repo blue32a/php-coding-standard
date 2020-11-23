@@ -29,4 +29,4 @@ jobs:
         uses: ChristophWurst/xmllint-action@v1
         with:
           xml-file: ./src/Blue32a/ruleset.xml
-          xml-schema-file: ./vendor\squizlabs\php_codesniffer\phpcs.xsd
+          xml-schema-file: ./vendor/squizlabs/php_codesniffer/phpcs.xsd
