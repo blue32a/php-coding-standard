@@ -4,7 +4,7 @@ The PHP coding standard of the my projects.
 
 ## Introduction
 
-This project is [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) rules.
+This project is [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) rules. It also contains the rules of the [Slevomat Coding Standard](https://github.com/slevomat/coding-standard).
 
 ## Installation
 
