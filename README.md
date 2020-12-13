@@ -18,7 +18,6 @@ Make sure that the installed coding standards include **Blue32a**.
 
 ```bash
 phpcs -i
-The installed coding standards are MySource, PEAR, PSR1, PSR12, PSR2, Squiz, Zend and Blue32a
 ```
 
 ## Usage
