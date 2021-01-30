@@ -7,7 +7,12 @@
     <description>The Blue32a coding standard.</description>
 
     <!-- Import base -->
-    <rule ref="PSR12"/>
+    <rule ref="PSR12">
+        <!-- checked by SlevomatCodingStandard.Classes.ClassConstantVisibility -->
+        <exclude name="PSR12.Properties.ConstantVisibility"/>
+        <!-- checked by SlevomatCodingStandard.Classes.TraitUseSpacing -->
+        <exclude name="PSR12.Traits.UseDeclaration"/>
+    </rule>
 
     <!-- Force array element indentation with 4 spaces -->
     <rule ref="Generic.Arrays.ArrayIndent"/>
