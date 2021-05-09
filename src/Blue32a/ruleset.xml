@@ -287,6 +287,16 @@
     </rule>
     <!-- Forbid useless alias for classes, constants and functions -->
     <rule ref="SlevomatCodingStandard.Namespaces.UselessAlias"/>
+    <!-- Forbid argument unpacking for functions specialized by PHP VM -->
+    <rule ref="SlevomatCodingStandard.PHP.OptimizedFunctionsWithoutUnpacking"/>
+    <!-- Forbid `list(...)` syntax -->
+    <rule ref="SlevomatCodingStandard.PHP.ShortList"/>
+    <!-- Forbid use of longhand cast operators -->
+    <rule ref="SlevomatCodingStandard.PHP.TypeCast"/>
+    <!-- Forbid useless parentheses -->
+    <rule ref="SlevomatCodingStandard.PHP.UselessParentheses"/>
+    <!-- Forbid useless semicolon `;` -->
+    <rule ref="SlevomatCodingStandard.PHP.UselessSemicolon"/>
 
     <!-- Forbid spaces around square brackets -->
     <rule ref="Squiz.Arrays.ArrayBracketSpacing"/>
