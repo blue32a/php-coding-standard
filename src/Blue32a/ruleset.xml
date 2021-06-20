@@ -8,6 +8,13 @@
 
     <!-- Import base -->
     <rule ref="PSR12">
+        <exclude name="PSR12.Files.FileHeader"/>
+        <!-- checked by SlevomatCodingStandard.Operators.SpreadOperatorSpacing -->
+        <exclude name="Squiz.Functions.FunctionDeclarationArgumentSpacing.SpacingAfterVariadic"/>
+        <!-- checked by SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing.WhitespaceAfterNullabilitySymbol -->
+        <exclude name="PSR12.Functions.NullableTypeDeclaration.WhitespaceFound"/>
+        <!-- checked by SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing -->
+        <exclude name="PSR12.Functions.ReturnTypeDeclaration"/>
         <!-- checked by SlevomatCodingStandard.Classes.ClassConstantVisibility -->
         <exclude name="PSR12.Properties.ConstantVisibility"/>
         <!-- checked by SlevomatCodingStandard.Classes.TraitUseSpacing -->
