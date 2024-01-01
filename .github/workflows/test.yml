@@ -21,9 +21,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Using Composer version 2
-        run: sudo composer self-update --2
-
       - name: Validate composer.json and composer.lock
         run: composer validate
 
@@ -52,9 +49,6 @@ jobs:
 
       - name: Checkout
         uses: actions/checkout@v3
-
-      - name: Using Composer version 2
-        run: sudo composer self-update --2
 
       - name: Get Composer Cache Directory
         id: composer-cache
